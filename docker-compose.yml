@@ -41,7 +41,7 @@ services:
       timeout: 3s
       retries: 3
 
-   db:
+db:
     image: postgres:15-alpine
     environment:
       POSTGRES_USER: postgres
